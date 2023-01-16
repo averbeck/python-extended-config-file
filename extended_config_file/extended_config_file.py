@@ -3,7 +3,7 @@ import configparser
 from pathlib import Path
 
 
-class FileConfig(configparser.ConfigParser):
+class ExtendedConfigFile(configparser.ConfigParser):
     def __init__(self, pathConfigFullFileName: Path | None = None):
         super().__init__(allow_no_value=True)
 

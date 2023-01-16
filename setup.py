@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 """
-file-config library
+extended-config-file library
 """
 
 from setuptools import setup, find_packages
 
 setup(
-    name="file-config",
+    name="extended-config-file",
     author="Marc Averbeck",
     author_email="ghostcode1337@gmx.com",
     description="Simple configparser wrapper",
     long_description_content_type="text/markdown",
+    url="https://github.com/averbeck/python-extended-config-file",
     license="Apache-2.0",
     license_files=('LICENSE',),
     packages=find_packages(),

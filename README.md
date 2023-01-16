@@ -1,2 +1,2 @@
-# Config File (configparser wrapper)
+# Extended Config File (configparser wrapper)
 Easy config file library
